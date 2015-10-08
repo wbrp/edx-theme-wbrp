@@ -225,7 +225,14 @@ html {
     .outer-wrapper {
         padding: 120px 0 !important;
     }
+
+    .title>hgroup {
+        h2 {
+            text-transform: none;
+        }
+    }
 }
+
 #global-navigation {
     a.cta-login {
         background-color: $black-80;
