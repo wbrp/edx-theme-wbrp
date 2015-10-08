@@ -10,9 +10,9 @@
 //-----------------
 
 //Main Color Variables
-$wr-red: #d5261b;
-$main-color: #f7691f;
-$dark-color: $wr-red; //Link Color
+$wr-red: #db2033;
+$main-color: $wr-red;
+$dark-color: darken($wr-red, 10%); //Link Color
 $light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
