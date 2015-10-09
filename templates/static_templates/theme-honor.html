@@ -1,0 +1,24 @@
+## mako
+<%!
+  from django.conf import settings
+  from django.utils.translation import ugettext as _
+%>
+<%inherit file="/main.html" />
+
+<%namespace name='static' file='/static_content.html'/>
+
+<%block name="title"><title>${_('Terms of Service')}</title></%block>
+
+<section class="static-container tos">
+    <h2>${_('Terms of Service')}</h2>
+
+    <p>${_('We provide this platform to you in order for you to learn new things. You agree that you will let us know if some problem occurs.')}</p>
+
+    <h2 id="honor">${_('Honor Code')}</h2>
+
+    <p>${_('You agree that you will try to actually learn from the contents presented here, instead of just finishing the courses because you have to.')}</p>
+
+    <h2 id="copyright">${_('Copyright')}</h2>
+
+    <p>${_('All courses are &copy; by Webrepublic AG.')}</p>
+</section>
