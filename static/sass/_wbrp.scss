@@ -228,7 +228,8 @@ html {
 
     .title>hgroup {
         h2 {
-            text-transform: none;
+            text-transform: none !important;
+            margin-top: 12px;
         }
     }
 }
